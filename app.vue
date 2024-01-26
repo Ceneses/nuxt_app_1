@@ -1,13 +1,12 @@
 <template>
   <div :class="{'dark': darkMode}">
-
     <section class="relative bg-[#ffffff]">
       <!-- Container -->
       <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
         <!-- Component -->
         <div class="flex flex-col items-center justify-start max-[767px]:text-center">
           <h2 class="text-3xl font-semibold md:text-5xl">
-            <span class="bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/63915f9749aaab0572c48dae_Rectangle%2018.svg')] bg-cover bg-center bg-no-repeat px-4 text-white">Simple &amp; Affordable</span> Pricing
+            <span class="bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/63915f9749aaab0572c48dae_Rectangle%2018.svg')] bg-cover bg-center bg-no-repeat px-4 text-white">简单 &amp; 性价比</span> 价格方案
           </h2>
           <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
             <p class="text-[#636262]">Simple &amp; fixed pricing. 30 days money-back guarantee</p>
