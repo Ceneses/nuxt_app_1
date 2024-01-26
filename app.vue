@@ -13,8 +13,8 @@
             <p class="text-[#636262]">Simple &amp; fixed pricing. 30 days money-back guarantee</p>
           </div>
           <!-- Pricing Cards -->
-          <div class="grid w-full grid-cols-1 gap-8 md:grid-cols-2 md:gap-4 lg:grid-cols-3">
-            <div class="flex w-full max-w-[416px] flex-col items-start rounded-2xl border border-solid border-[#9b9b9b] bg-white px-8 pb-12 pt-8">
+          <div class="grid w-full grid-cols-12 gap-8">
+            <div class="col-span-4 flex w-full max-w-[416px] flex-col items-start rounded-2xl border border-solid border-[#9b9b9b] bg-white px-8 pb-12 pt-8">
               <div class="mb-4 rounded-lg bg-[#1353fe] px-5 py-2">
                 <p class="text-sm font-bold text-white">BASIC</p>
               </div>
@@ -39,7 +39,7 @@
               </div>
               <a href="#" class="mx-auto inline-block rounded-xl bg-black px-7 py-4 text-center font-semibold text-white [box-shadow:rgb(19,_83,_254)_6px_6px]">Get started</a>
             </div>
-            <div class="flex w-full max-w-[416px] flex-col items-start rounded-2xl border border-solid border-[#9b9b9b] bg-[#376dfd] px-8 pb-12 pt-8 text-white [box-shadow:rgb(0,_0,_0)_6px_6px]">
+            <div class="col-span-4 flex w-full max-w-[416px] flex-col items-start rounded-2xl border border-solid border-[#9b9b9b] bg-[#376dfd] px-8 pb-12 pt-8 text-white [box-shadow:rgb(0,_0,_0)_6px_6px]">
               <div class="mb-4 rounded-lg bg-black px-5 py-2">
                 <p class="text-sm font-bold text-white">GROWTH</p>
               </div>
@@ -64,7 +64,7 @@
               </div>
               <a href="#" class="mx-auto inline-block rounded-xl bg-black px-7 py-4 text-center font-semibold text-white [box-shadow:rgb(255,_255,_255)_6px_6px]">Get started</a>
             </div>
-            <div class="flex w-full max-w-[416px] flex-col items-start rounded-2xl border border-solid border-[#9b9b9b] bg-white px-8 pb-12 pt-8">
+            <div class="col-span-4 flex w-full max-w-[416px] flex-col items-start rounded-2xl border border-solid border-[#9b9b9b] bg-white px-8 pb-12 pt-8">
               <div class="mb-4 rounded-lg bg-[#1353fe] px-5 py-2">
                 <p class="text-sm font-bold text-white">PRO</p>
               </div>
