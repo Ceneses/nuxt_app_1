@@ -1,6 +1,5 @@
 <template>
 <div>
-
   <section>
     <!-- Container -->
     <div class="relative mx-auto flex w-full max-w-[1120px] flex-col items-start px-5 py-16 md:px-10 md:py-24 lg:py-32">

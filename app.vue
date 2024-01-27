@@ -1,98 +1,31 @@
 <template>
   <div :class="{'dark': darkMode}">
-    <section class="relative bg-[#ffffff]">
-      <!-- Container -->
-      <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
-        <!-- Component -->
-        <div class="flex flex-col items-center justify-start max-[767px]:text-center">
-          <h2 class="text-3xl font-semibold md:text-5xl">
-            <span class="bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/63915f9749aaab0572c48dae_Rectangle%2018.svg')] bg-cover bg-center bg-no-repeat px-4 text-white">简单 &amp; 性价比</span> 价格方案
-          </h2>
-          <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
-            <p class="text-[#636262]">Simple &amp; fixed pricing. 30 days money-back guarantee</p>
+    <sectiion>
+      <div class="h-auto w-screen bg-sky-200">
+        <nav class="font-inter h-auto w-full flex flex-row items-center justify-between p-4">
+          <a href="https://breeze-templates.webflow.io/" aria-current="page" class="relative float-left bg-[#00000000] leading-[0] text-[#333333] no-underline hover:outline-0 max-[991px]:mr-auto max-[767px]:pl-0" aria-label="home">
+            <img src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f198e9637f855_Group%2047874-2.png" loading="lazy" alt="" class="inline-block max-h-6 max-w-full" />
+          </a>
+          <div class="flex flex-row items-center justify-between gap-x-4">
+            <NuxtLink to="/">首页</NuxtLink>
+            <NuxtLink to="/price">价格</NuxtLink>
+            <NuxtLink to="/about">关于</NuxtLink>
           </div>
-          <!-- Pricing Cards -->
-          <div class="grid w-full grid-cols-12 gap-8">
-            <div class="col-span-4 flex w-full max-w-[416px] flex-col items-start rounded-2xl border border-solid border-[#9b9b9b] bg-white px-8 pb-12 pt-8">
-              <div class="mb-4 rounded-lg bg-[#1353fe] px-5 py-2">
-                <p class="text-sm font-bold text-white">BASIC</p>
-              </div>
-              <p class="mb-6 font-light text-[#636262] md:mb-10 lg:mb-12">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit</p>
-              <h2 class="mb-4 text-left text-3xl font-semibold md:text-5xl">$99<span class="text-sm font-light">/year</span>
-              </h2>
-              <div class="mt-2 flex flex-row items-center text-left">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b065a0f8d592_check-mark.svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Premium Designs</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center text-left">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b065a0f8d592_check-mark.svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Exclusive Freebies</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center text-left">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b065a0f8d592_check-mark.svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Monthly Free Exclusive</p>
-              </div>
-              <div class="mb-6 mt-2 flex flex-row items-center md:mb-10 lg:mb-12">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b065a0f8d592_check-mark.svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Customer Support</p>
-              </div>
-              <a href="#" class="mx-auto inline-block rounded-xl bg-black px-7 py-4 text-center font-semibold text-white [box-shadow:rgb(19,_83,_254)_6px_6px]">Get started</a>
-            </div>
-            <div class="col-span-4 flex w-full max-w-[416px] flex-col items-start rounded-2xl border border-solid border-[#9b9b9b] bg-[#376dfd] px-8 pb-12 pt-8 text-white [box-shadow:rgb(0,_0,_0)_6px_6px]">
-              <div class="mb-4 rounded-lg bg-black px-5 py-2">
-                <p class="text-sm font-bold text-white">GROWTH</p>
-              </div>
-              <p class="mb-6 font-light md:mb-10 lg:mb-12">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit</p>
-              <h2 class="mb-4 text-left text-3xl font-semibold md:text-5xl">$149<span class="text-sm font-light">/year</span>
-              </h2>
-              <div class="mt-2 flex flex-row items-center text-left">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63980ab08447c8da5bd93d77_akar-icons_circle-check-fill%20(2).svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Premium Designs</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center text-left">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63980ab08447c8da5bd93d77_akar-icons_circle-check-fill%20(2).svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Exclusive Freebies</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center text-left">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63980ab08447c8da5bd93d77_akar-icons_circle-check-fill%20(2).svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Monthly Free Exclusive</p>
-              </div>
-              <div class="mb-6 mt-2 flex flex-row items-center md:mb-10 lg:mb-12">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63980ab08447c8da5bd93d77_akar-icons_circle-check-fill%20(2).svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Customer Support</p>
-              </div>
-              <a href="#" class="mx-auto inline-block rounded-xl bg-black px-7 py-4 text-center font-semibold text-white [box-shadow:rgb(255,_255,_255)_6px_6px]">Get started</a>
-            </div>
-            <div class="col-span-4 flex w-full max-w-[416px] flex-col items-start rounded-2xl border border-solid border-[#9b9b9b] bg-white px-8 pb-12 pt-8">
-              <div class="mb-4 rounded-lg bg-[#1353fe] px-5 py-2">
-                <p class="text-sm font-bold text-white">PRO</p>
-              </div>
-              <p class="mb-6 font-light text-[#636262] md:mb-10 lg:mb-12">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit</p>
-              <h2 class="mb-4 text-left text-3xl font-semibold md:text-5xl">$249<span class="text-sm font-light">/year</span>
-              </h2>
-              <div class="mt-2 flex flex-row items-center text-left">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b065a0f8d592_check-mark.svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Premium Designs</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center text-left">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b065a0f8d592_check-mark.svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Exclusive Freebies</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center text-left">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b065a0f8d592_check-mark.svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Monthly Free Exclusive</p>
-              </div>
-              <div class="mb-6 mt-2 flex flex-row items-center md:mb-10 lg:mb-12">
-                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b065a0f8d592_check-mark.svg" alt="" class="mr-2 inline-block w-5" />
-                <p>Customer Support</p>
-              </div>
-              <a href="#" class="mx-auto inline-block rounded-xl bg-black px-7 py-4 text-center font-semibold text-white [box-shadow:rgb(19,_83,_254)_6px_6px]">Get started</a>
-            </div>
+          <!-- MENU CONTENT 2 -->
+          <div class="flex flex-row space-x-3 items-center">
+            <a href="https://tailwind-css-template-breeze.vercel.app/Login" class="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800">Sign Up</a>
+            <a href="#" class="flex max-w-[300px] flex-row items-center border-2 border-black bg-white px-8 py-4 font-semibold text-black transition [box-shadow:rgb(0,_0,0)-8px_8px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]">
+              <p class="mr-6 font-bold">Free Components</p>
+              <svg fill="currentColor" class="h-4 w-4 flex-none" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
+                <title>Arrow Right</title>
+                <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"></polygon>
+              </svg>
+            </a>
           </div>
-        </div>
+        </nav>
       </div>
-      <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63905ba1538296b3f50a905e_pattern-2.svg" alt="" class="absolute bottom-auto left-auto right-0 top-0 -z-10 inline-block max-[479px]:hidden" />
-    </section>
+    </sectiion>
+    <NuxtPage></NuxtPage>
   </div>
 </template>
 
@@ -100,4 +33,5 @@
 import {ref} from "vue";
 
 const darkMode = ref(false)
+
 </script>
